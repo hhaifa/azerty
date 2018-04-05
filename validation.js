@@ -36,9 +36,7 @@ const Preinscritdoc = Joi.object().keys({
     fax:Joi.number().required().min(8),
     E_mail:Joi.string().required().min(8),
     commente:Joi,
-    // releaseDate: Joi.date(),
-    
-    // spes: Joi.array().items(Joi.any())
+  
 });
 
-module.exports = {Mailing,Movie, Actor,Preinscritdoc};
+module.exports = {Mailing,Preinscritdoc,Doc};
